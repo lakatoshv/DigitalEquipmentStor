@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.digitalequipmentstore.MainActivity">
+
+    <Button
+        android:id="@+id/btnViewProducts"
+        android:layout_width="368dp"
+        android:layout_height="38dp"
+        android:text="@string/all_products"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="368dp"
+        android:layout_height="38dp"
+        android:text="@string/category"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="368dp"
+        android:layout_height="38dp"
+        android:text="@string/search"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="368dp"
+        android:layout_height="38dp"
+        android:text="@string/virobniki"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="368dp"
+        android:layout_height="38dp"
+        android:text="@string/news"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="368dp"
+        android:layout_height="38dp"
+        android:text="@string/about"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+</android.support.constraint.ConstraintLayout>
