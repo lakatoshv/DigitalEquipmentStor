@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.digitalequipmentstore">
+    package="com.example.vital.digitalequipmentstore">
 
     <application
         android:allowBackup="true"
@@ -9,10 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <!-- All Product Activity -->
-        <activity android:name=".AllProductsActivity"
-            android:label="All Products" >
-        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +17,5 @@
             </intent-filter>
         </activity>
     </application>
-    <!--  Internet Permissions -->
-    <uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>
