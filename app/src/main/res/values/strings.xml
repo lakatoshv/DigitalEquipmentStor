@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Магазин цифрової техніки</string>
+    <string name="all_products">Вся продукція</string>
+    <string name="category">Категорія товарів</string>
+    <string name="search">Пошук</string>
+    <string name="virobniki">Виробники</string>
+    <string name="news">Новини</string>
+    <string name="about_us">Про нас</string>
+</resources>
