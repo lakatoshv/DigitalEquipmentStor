@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.vital.digitalequipmentstore.ProductsActivity"
+    tools:showIn="@layout/activity_products">
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Бонус на рахунок при покупці Nokia"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@mipmap/ic_launcher" />
+        <TextView
+            android:id="@+id/Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="При покупці телефона Nokia ви отримуєте бонусні 10..."
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2017-01-10 10:09:49"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="18dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
