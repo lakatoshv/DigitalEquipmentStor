@@ -12,7 +12,7 @@
     - _Категорія "Категорії товарів"_
     - _Категорія "Пошук"_
     - _Категорія "Новини"_
-3. ### **[v1.3](https://github.com/lakatoshv/DigitalEquipmentStore/tree/v1.3)**
+3. ### **[v1.3](https://github.com/lakatoshv/DigitalEquipmentStore/tree/v1.3-final)**
     Додано:
     - _Таблиця "Товари"_
     - _Категорія "Товар"_
