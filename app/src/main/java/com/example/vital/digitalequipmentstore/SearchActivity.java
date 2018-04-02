@@ -23,7 +23,7 @@ public class SearchActivity extends AppCompatActivity {
         String search = result.getText().toString();
         if(search != null || search.trim().length() != 0){
             Intent intent = new Intent(this, ProductsActivity.class);
-            intent.putExtra("search", "Шукане: " + search);
+            intent.putExtra("search", " where `title`  LIKE '%" + search + "%' or `brand` = '%" + search + "%'");
             startActivity(intent);
         }
     }

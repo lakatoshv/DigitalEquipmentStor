@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     public void AllProducts(View view) {
         Intent intent = new Intent(this, ProductsActivity.class);
         ProductsActivity productsActivity = new ProductsActivity();
-        intent.putExtra("search", "Всі товари");
+        intent.putExtra("search", "");
         startActivity(intent);
     }
     public void Category(View view) {
@@ -27,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void News(View view) {
         Intent intent = new Intent(this, NewsActivity.class);
+        startActivity(intent);
+    }
+    public void Brands(View view) {
+        Intent intent = new Intent(this, BrandsActivity.class);
         startActivity(intent);
     }
 }

@@ -7,48 +7,68 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.vital.digitalequipmentstore.ProductsActivity"
     tools:showIn="@layout/activity_products">
-    <LinearLayout
-        android:id="@+id/linear"
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
-
-        <TextView
-            android:id="@+id/Title"
+        tools:layout_editor_absoluteY="8dp"
+        android:id="@+id/listView"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll">
+        <LinearLayout
+            android:id="@+id/linear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Бонус на рахунок при покупці Nokia"
-            android:textColor="@android:color/holo_orange_dark"
-            android:textSize="25dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="0dp" />
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="3dp">
 
-        <ImageView
-            android:id="@+id/icon"
-            android:layout_width="150dp"
-            android:layout_height="200dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="5dp"
-            android:src="@mipmap/ic_launcher" />
-        <TextView
-            android:id="@+id/Body"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="При покупці телефона Nokia ви отримуєте бонусні 10..."
-            android:textColor="@android:color/black"
-            android:textSize="18dp" />
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Samsung Galaxy J7"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
 
-        <TextView
-            android:id="@+id/Date"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="2017-01-10 10:09:49"
-            android:textColor="@android:color/holo_orange_light"
-            android:textSize="18dp" />
-    </LinearLayout>
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@mipmap/samsung_galaxy_j7_1" />
+
+            <TextView
+                android:id="@+id/Price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5299"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/minidescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Для активного пользователя мобильными устройствами..."
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Product"
+                android:text="@string/detal" />
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>

@@ -36,6 +36,19 @@
         <activity
             android:name=".NewsActivity"
             android:label="@string/title_activity_news"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProductActivity"
+            android:label="@string/title_activity_product"
+            android:parentActivityName=".ProductsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.vital.digitalequipmentstore.ProductsActivity" />
+        </activity>
+        <activity
+            android:name=".BrandsActivity"
+            android:label="@string/title_activity_brands"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

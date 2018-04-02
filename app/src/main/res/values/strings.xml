@@ -11,6 +11,9 @@
     <string name="laptop">Ноутбуки</string>
     <string name="title_activity_categories">Категорії товарів</string>
     <string name="title_activity_products">Товари</string>
-    <string name="title_activity_search">SearchActivity</string>
     <string name="title_activity_news">Новини</string>
+    <string name="detal">Детальніше</string>
+    <string name="title_activity_product">Товар</string>
+    <string name="title_activity_brands">Виробники</string>
+    <string name="title_activity_search">Пошук по товарах і виробникахз</string>
 </resources>

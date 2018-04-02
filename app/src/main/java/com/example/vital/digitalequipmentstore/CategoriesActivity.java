@@ -21,17 +21,17 @@ public class CategoriesActivity extends AppCompatActivity {
     }
     public void Mobile(View view) {
         Intent intent = new Intent(this, ProductsActivity.class);
-        intent.putExtra("search", "Мобільні телефони");
+        intent.putExtra("search", " where `type_tovara` = 'mobile'");
         startActivity(intent);
     }
     public void Tablet(View view) {
         Intent intent = new Intent(this, ProductsActivity.class);
-        intent.putExtra("search", "Планшети");
+        intent.putExtra("search", " where `type_tovara` = 'tablet'");
         startActivity(intent);
     }
     public void Laptop(View view) {
         Intent intent = new Intent(this, ProductsActivity.class);
-        intent.putExtra("search", "Ноутбуки");
+        intent.putExtra("search", " where `type_tovara` = 'laptop'");
         startActivity(intent);
     }
 
